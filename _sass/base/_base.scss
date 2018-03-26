@@ -34,6 +34,19 @@ h6 {
   line-height: normal;
 }
 
+li,
+ul,
+p {
+  color: $default-shade;
+  font-family: $sans-serif;
+  line-height: normal;
+}
+
+li,
+ul {
+  padding: 0.1rem 0.2rem 0.2rem 0.7rem;
+}
+
 a {
   color: #999;
   text-decoration: none;
