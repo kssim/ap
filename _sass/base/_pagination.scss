@@ -1,6 +1,6 @@
 .pagination {
   border-top: .5px solid $grey-2;
-  font-family: $serif-secondary;
+  font-family: $sans-serif;
   padding-top: 2rem;
   position: relative;
   text-align: center;
@@ -13,7 +13,6 @@
   .top {
     @include transition(all .3s ease-out);
     color: $default-color;
-    font-family: $sans-serif;
     font-size: 1.1rem;
     opacity: .6;
 
@@ -22,9 +21,10 @@
     }
   }
 
-  .arrow {
+  .next {
     @include transition(all .3s ease-out);
     color: $default-color;
+    font-size: 0.9rem;
     position: absolute;
 
     &:hover,
