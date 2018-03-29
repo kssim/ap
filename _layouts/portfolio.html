@@ -9,12 +9,19 @@ layout: base
         <h1 class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
 
-        <p>
-          - {{ post.info }} </br>
-          - {{ post.tech }}
-        </p>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-
+        <div class="catalogue-content"> 
+          <span class="catalogue-icon">
+              <i class="fa fa-sticky-note"></i><span class="catalogue-icon-text">{{ post.info }}</span>
+          </span>
+          </br>
+          <span class="catalogue-icon">
+              <i class="fa fa-calendar-alt"></i><span class="catalogue-icon-text">{{ post.date | date: "%B %d, %Y" }}</span>
+          </span>
+          </br>
+          <span class="catalogue-icon">
+              <i class="fa fa-cog"></i><span class="catalogue-icon-text">{{ post.tech }}</span>
+          </span>
+        </div>
       </div>
     </a>
     </br>
