@@ -8,7 +8,6 @@ google_analytics: # Tracking ID, e.g. "UA-000000-01"
 author:
   name: KyeongSeob Sim
   desc: Hello nice to meet you
-  url: https://kssim.com
   email: ksub0912@gmail.com
   selfie: assets/img/profile.jpg
 
@@ -60,3 +59,4 @@ exclude:
   - "*.gem"
   - "LICENSE"
   - "READE.md"
+  - "screenshot.png"
