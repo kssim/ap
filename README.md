@@ -1,20 +1,50 @@
 # AP
-AP Theme is an abbreviation of "About Portfolio".  
-AP Theme is taking the blog form as a website for career management.  
+"AP" is [Jekyll](https://jekyllrb.com/) theme for career. This theme is free and open-source.  
+Based on Chester How tale-theme(https://github.com/chesterhow/tale) with a few new features:  
+* SNS Link
+* Google Analytics
+* Responsive design
+* Upgrading awesome fonts and modifying some layouts.
+* Use "About" as main.
+  * It can be written in simple resume form.
+* Change "Post" to "Project Portfolio"
+  * You can manage your project experience just like running a blog.
+
+
+# Preview
+[![AP Screenshot](https://github.com/kssim/ap/blob/master/screenshot.png?raw=true)](https://kssim.github.io/ap/)
+
+
+# Usage
+1. Fork and clone the AP repo:
+    * git clone https://github.com/kssim/ap.git
+2. Install Jekyll:
+    * gem install jekyll
+3. Install the theme's dependencies
+    * bundle install
+4. Customize the theme
+    * update _config.yml
+5. Run the Jekyll server
+    * jekyll serve
 
 
 ## Structure
-"About" is a simple personal history.  
-"Portfolio" is your project experience.  
-Portfolio is written in blog form and you can accumulate your history.  
+* Here are the main files of the template
+```bash
+ap
+├── _includes                   # theme includes
+├── _layouts                   # theme layouts (see below for details)
+├── _posts                     # Project & Portfolio posts
+├── _sass                      # Sass partials 
+├── portfolio                  # Main page for "portfolio"
+├── assets
+|  ├── css                     # font-awesome and main css
+|  ├── fonts                       # Font-Awesome
+|  ├── favicon.ico                 # Favicon
+|  └── img                         # Images used for "about" page
+├── _config.yml                # sample configuration
+└── index.md                   # Resume to show on "about" page
+```
 
-
-## About
-This Theme is the theme I created for career management.  
-In the future, I plan to update the parts that I feel personally need.  
-If you have any special needs, please request them freely.  
-
-
-## Thanks
-Finally, this theme transformed the theme ["tale"](https://github.com/chesterhow/tale).  
-Thanks to [@chesterhow](https://github.com/chesterhow) for making this theme ["tale"](https://github.com/chesterhow/tale).  
+## License
+[The MIT License (MIT)](https://raw.githubusercontent.com/kssim/ap/master/LICENSE)
