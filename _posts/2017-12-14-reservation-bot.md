@@ -2,7 +2,8 @@
 layout: post
 title:  "Reservation Bot"
 info: "Restaurant Reservation Bot"
-tech : "Python, Slack API"
+tech: "Python, Slack API"
+type: B Company
 ---
 
 ## Reservation Bot 

@@ -2,7 +2,8 @@
 layout: post
 title:  "Create github page"
 info: "Create my github blog."
-tech : "ruby, jekyll"
+tech: "ruby, jekyll"
+type: B Company
 ---
 
 ## Create github page 

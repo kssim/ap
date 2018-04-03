@@ -114,7 +114,8 @@ social:
 layout: post
 title:  [Project title to show in portfolio list]
 info: [A brief introduction to show in portfolio list]
-tech : [The technologies used in the project to show in portfolio list]
+tech: [The technologies used in the project to show in portfolio list]
+type: [Property of the project to be displayed in front of the project's info(toy or company name)]
 ---
 ```
 

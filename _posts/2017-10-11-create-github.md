@@ -2,7 +2,8 @@
 layout: post
 title:  "Create github"
 info: "Create new github repository"
-tech : "none"
+tech: "none"
+type: A Company
 ---
 
 ## Create 

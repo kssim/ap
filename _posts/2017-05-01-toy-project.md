@@ -2,7 +2,8 @@
 layout: post
 title:  "Toy Project"
 info: "toy project"
-tech : "python"
+tech: "python"
+type: Toy 
 ---
 
 ## Toy Project 1.
