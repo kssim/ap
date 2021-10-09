@@ -1,6 +1,11 @@
 ---
 layout: about 
 ---
+> Stay hungry, Stay foolish.
+<div align="right">
+  --Steve Jobs
+</div>
+<br/>
 
 # About Me
 Hi! I am Alex Zhang, an undergraduate at Department of Electronic Engineering, Tsinghua University, Beijing, China
