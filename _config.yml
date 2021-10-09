@@ -7,7 +7,7 @@ google_analytics: # Tracking ID, e.g. "UA-000000-01"
 # Author
 author:
   name: Alex Zhang
-  desc: Hello nice to meet you
+  desc: Personal Website v0.1
   email: alexzhangmt1999@gmail.com
   selfie: assets/img/alex.JPEG
 
