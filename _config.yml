@@ -1,5 +1,5 @@
 # Site settings
-title: Alex Zhang
+title: Alex Zhang's Website
 # baseurl: "/ap"
 url: "https://XUANTONG1999.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
@@ -9,7 +9,7 @@ author:
   name: Alex Zhang
   desc: Personal Website v0.1
   email: alexzhangmt1999@gmail.com
-  selfie: assets/img/alex.JPEG
+  selfie: assets/img/C3PO.png
 
 # social
 social:
