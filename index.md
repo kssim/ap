@@ -1,5 +1,5 @@
 ---
-layout: About 
+layout: about 
 ---
 
 # About Me
