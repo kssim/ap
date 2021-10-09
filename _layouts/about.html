@@ -11,21 +11,32 @@ layout: base
     </div>
   </div>
 
+  <div class="col-sm-12 pt-2">
+    <h1>Experience</h1>
+    <ul class="timeline">
+        {% for entry in timeline %}
+        <li class="timeline-entry">
+            <strong>{{ entry.time }}</strong> | {{ entry.position }}, {{ entry.org }}
+            <p class="timeline-description">{{ entry.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
   <div class="content">
     {{ content }}
     </br>
     <div class="col-sm-12 pt-2">
-      <h2>Experience</h2>
+      <h1>Experience</h1>
       <ul class="timeline">
           
           <li class="timeline-entry">
               <strong>Summer 2021</strong> | Research Assistant
               <p class="timeline-description"></p>
           </li>
-
-          
       </ul>
     </div>
+    
     </br>
     <div class="social-layer">
       <div class="social-icons">
