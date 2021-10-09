@@ -2,24 +2,24 @@
 layout: base 
 ---
 
-<div class="projects">
-  {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="projects-item">
+<div class="blogs">
+  {% for blogpost in paginator.blogposts %}
+    <a href="{{ blogpost.url | prepend: site.baseurl }}" class="blogs-item">
       <div>
-        <h1 class="projects-title">{{ post.title }}</h1>
-        <div class="projects-line"></div>
+        <h1 class="blogs-title">{{ blogpost.title }}</h1>
+        <div class="blogs-line"></div>
 
-        <div class="projects-content"> 
-          <span class="projects-icon">
-              <i class="fa fa-sticky-note"></i><span class="projects-icon-text">[{{ post.type }}] {{ post.info }}</span>
+        <div class="blogs-content"> 
+          <span class="blogs-icon">
+              <i class="fa fa-sticky-note"></i><span class="blogs-icon-text">[{{ blogpost.type }}] {{ blogpost.info }}</span>
           </span>
           </br>
-          <span class="projects-icon">
-              <i class="fa fa-calendar-alt"></i><span class="projects-icon-text">{{ post.date | date: "%B %d, %Y" }}</span>
+          <span class="blogs-icon">
+              <i class="fa fa-calendar-alt"></i><span class="blogs-icon-text">{{ blogpost.date | date: "%B %d, %Y" }}</span>
           </span>
           </br>
-          <span class="projects-icon">
-              <i class="fa fa-cog"></i><span class="projects-icon-text">{{ post.tech }}</span>
+          <span class="blogs-icon">
+              <i class="fa fa-cog"></i><span class="blogs-icon-text">{{ blogpost.tech }}</span>
           </span>
         </div>
       </div>
