@@ -1,7 +1,7 @@
 ---
 layout: about 
 ---
-<div align="left"><font size="6">Stay hungry. Stay foolish.</font> </div>
+<div align="left"><font size="6"><i>Stay hungry. Stay foolish.</i></font> </div>
 
 <div align="right">
   --Steve Jobs
