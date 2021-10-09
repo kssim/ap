@@ -1,5 +1,5 @@
 # Site settings
-title: Alex Zhang's Website
+title: Alex Zhang
 # baseurl: "/ap"
 url: "https://XUANTONG1999.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
@@ -52,6 +52,17 @@ plugins:
 # Permalinks
 permalink: /:year-:month-:day/:title
 paginate_path: "/projects/page:num/"
+paginate: 5
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gem"
+  - "LICENSE"
+  - "READE.md"
+  - "screenshot.png"
+
+permalink: /:year-:month-:day/:title
+paginate_path: "/blogs/page:num/"
 paginate: 5
 exclude:
   - "Gemfile"
