@@ -21,12 +21,11 @@ footer,
     margin: 1rem auto;
     position: relative;
     text-align: center;
-    color: #2873ad;
   }
 
   &-title {
     @include transition(all .2s ease-out);
-    color: #2873ad;
+    color: $default-color;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
