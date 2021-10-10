@@ -13,6 +13,8 @@ Based on RNN and CTC decoding, complete scene text recognition tasks
 
 ## Introduction to CTC
 
+![detection-1](/imgs/Projects/detection-1.jpg)
+
 Temporal Classification task: The input is a sequence, and the output is the result of classification on the sequence. For example, speech recognition, given a speech sequence sample and the corresponding speech content label, train a model to predict the speech content (character sequence) through the speech sequence.
 
 #### Difficulties
@@ -33,6 +35,8 @@ There are challenges which get in the way of us using simpler supervised learnin
 Click [here](https://distill.pub/2017/ctc/) to learn more about CTC.
 
 ## Implementation
+
+![detection-2](/imgs/Projects/detection-2.jpg)
 
 CNN: Extract high-level semantic representation of the image and output convolutional features;
 
