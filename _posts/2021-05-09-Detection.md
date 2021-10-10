@@ -63,6 +63,8 @@ The character with index 12 is "blank" or $$t$$​, among which the probability 
 
 The character with index 14, 15, 17, 18, 19 is "blank", the character with index 16 is $$e$$, and the character with index 20 is $$m$$;
 
-The alignment obtained from the above analysis is: $$s----y---s--tt--e---m-----$$​​
+The alignment obtained from the above analysis is:
+
+$$s----y---s--tt--e---m-----$$​​
 
 The final output sequence obtained after the alignment process is: $$system$$​, which is consistent with the visualization results.
