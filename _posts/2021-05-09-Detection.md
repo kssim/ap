@@ -44,7 +44,7 @@ Pool: Pooling layer, which converts two-dimensional convolution features into on
 
 RNN: Perform sequence modeling on the context of features and output sequence features enhanced by context;
 
-FC: The fully connected layer takes sequence features as input and outputs classification sequences with unnormalized probabilities (Subsequently, you need to use **softmax** to normalize the classification probabilities);
+FC: The fully connected layer takes sequence features as input and outputs classification sequences with unnormalized probabilities (Subsequently, you need to use **Softmax** to normalize the classification probabilities);
 
 CTC: Convert classification sequences into output character sequences to realize automatic alignment of inputs and outputs.
 
