@@ -12,7 +12,10 @@ layout: about
 <br/>
 
 # About Me
+<div><font size = "6">
 Hi! I am Alex Zhang, an undergraduate at [Department of Electronic Engineering](https://www.ee.tsinghua.edu.cn/en/), Tsinghua University, Beijing, China.
 
-I am always enthusiastic about **Computer Vision** and **Human-Computer Interaction**. 
+I am always enthusiastic about **Computer Vision** and **Human-Computer Interaction**.
+</font>
+</div>
 
