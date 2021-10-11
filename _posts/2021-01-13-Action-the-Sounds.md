@@ -37,3 +37,17 @@ The physical properties of different objects vary, so the impact audio also has 
 
 Task 1 uses only the four-channel audio information of the object impact to classify the types of objects, and estimate the number of the classified objects for each audio file.
 
+### Task 2
+
+Impact audio contains not only information about the type of object, but also information such as the direction and location of the object's impact.
+
+Considering several pairs of matching audio and video, after disrupting the corresponding relationship, task 2 restores the corresponding relationship between the audio and video by analyzing the characteristics of the audio and video.
+
+**The number of audio and video to be matched is the same, and there is a one-to-one correspondence between audio and video.**
+
+### Task 3
+
+The goal of task 3 is the same as that of task 2, which is also to match audio and video.
+
+The difference is that task 3 does not guarantee one-to-one correspondence between the audio to be matched and the video: **There is an indefinite number of audios that do not have a corresponding video, and there are also an indefinite number of videos that do not have a corresponding audio.**
+
