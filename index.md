@@ -9,7 +9,7 @@ layout: about
 <br/>
 
 # About Me
-<h1>Hi! I am Alex Zhang, an undergraduate at [Department of Electronic Engineering](https://www.ee.tsinghua.edu.cn/), Tsinghua University, Beijing, China.
+Hi! I am Alex Zhang, an undergraduate at [Department of Electronic Engineering](https://www.ee.tsinghua.edu.cn/), Tsinghua University, Beijing, China.
 
-I am always enthusiastic about **Computer Vision** and **Human-Computer Interaction**.</h1>
+I am always enthusiastic about **Computer Vision** and **Human-Computer Interaction**. 
 
