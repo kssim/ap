@@ -52,7 +52,6 @@ plugins:
 # Permalinks
 permalink: /:year-:month-:day/:title
 paginate_path: "/projects/page:num/"
-paginate_path: "/blogs/page:num/"
 paginate: 4
 exclude:
   - "Gemfile"
