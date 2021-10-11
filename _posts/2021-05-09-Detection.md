@@ -7,7 +7,7 @@ type: Project
 ---
 <h2><center>A deep network for Scene Text Detection</center></h2>
 
-Click here to see the [code](https://github.com/MTZHANG1999/Scene-Text-Detection).
+Click here to see the [code](https://github.com/mtzhang1999/Scene-Text-Detection).
 
 Based on RNN and CTC decoding, complete scene text recognition tasks
 
