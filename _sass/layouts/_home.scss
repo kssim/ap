@@ -38,4 +38,11 @@
     margin-left: 0.8rem;
     color:#12294b;
   }
+
+  &-content {
+    margin-top: 1rem;
+    color: $default-shade;
+    font-family: $sans-serif;
+    font-size: 2rem;
+  }
 }
