@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
 
   {% include head.html %}
 
   <body>
-    <nav class="nav">
+
+    <header class="nav">
       <div class="nav-container">
         <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
+          <h1 class="nav-title">{{ site.title | default: site.github.repository_name }}</h1>
         </a>
-        <ul>
-          <li><a href="{{ '/' | prepend: site.baseurl }}">About</a></li>
-          <li><a href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a></li>
-        </ul>
-    </div>
-  </nav>
+        <nav>
+          <ul>
+            <li><a href="{{ '/' | prepend: site.baseurl }}">About</a></li>
+            <li><a href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <main>
       {{ content }}
@@ -22,7 +25,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. <a href="https://github.com/kssim/about-portfolio/">A.P</a> theme by kssim.
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name | default: site.author }}. <a href="https://github.com/kssim/about-portfolio/">A.P</a> theme by kssim.
       </span>
     </footer>
   </body>
