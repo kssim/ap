@@ -1,14 +1,14 @@
 ---
-layout: base 
+layout: default
 ---
 
-<div class="post">
+<section class="post">
   <h2 class="post-title">{{ page.title }}</h2>
-  <div class="post-line"></div>
+  <hr class="post-line"/>
 
   {{ content }}
 
-</div>
+</section>
 
 <div class="pagination">
   {% if page.next.url %}

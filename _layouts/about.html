@@ -1,25 +1,24 @@
 ---
-layout: base 
+layout: default
 ---
 
 <div class="about">
   <div class="profile">
-    <img class="selfie" alt="{{ site.author.name }}" src="{{ site.author.selfie }}" />
+    <img class="selfie" alt="{{ site.author.name | default: site.author }}" src="{{ site.author.selfie | default: site.github.owner_gravatar_url }}" />
     <div class="info">
-      <div class="title">{{ site.author.name }}</div>
-      <div class="description">{{ site.author.desc }}</div>
+      <div class="title">{{ site.author.name | default: site.author }}</div>
+      <div class="description">{{ site.author.desc | default: site.description | default: site.github.project_tagline }}</div>
     </div>
   </div>
 
-  <div class="content">
+  <section class="content">
     {{ content }}
-    </br>
-    <div class="social-layer">
-      <div class="social-icons">
-        <ul>
-          {% include icons.html %}
-        </ul>
-      </div>
+  </section>
+  <div class="social-layer">
+    <div class="social-icons">
+      <ul>
+        {% include social.html %}
+      </ul>
     </div>
   </div>
 </div>
