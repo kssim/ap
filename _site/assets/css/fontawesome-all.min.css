@@ -525,6 +525,9 @@
 .fa-braille:before {
   content: "\f2a1";
 }
+.fa-brands:before{
+content: "\f09b";
+}
 .fa-briefcase:before {
   content: "\f0b1";
 }
@@ -1242,10 +1245,10 @@
 .fa-github:before {
   content: "\f09b";
 }
-.fa-github-alt:before {
+.fa-git-alt:before {
   content: "\f113";
 }
-.fa-github-square:before {
+.fa-git-square:before {
   content: "\f092";
 }
 .fa-gitkraken:before {
