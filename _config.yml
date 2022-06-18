@@ -1,7 +1,7 @@
 # Site settings
 title: Git Portfolio
 baseurl: "/gp"
-url: "https://kssim.github.io"
+url: "https://morgenstern89.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
@@ -19,7 +19,7 @@ social:
   dribbble:
   facebook:
   flickr:
-  github:https://github.com/morgenstern89
+  github: https://github.com/morgenstern89
   google_plus:
   instagram:
   keybase:
