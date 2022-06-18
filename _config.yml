@@ -1,6 +1,6 @@
 # Site settings
 title: Git Portfolio
-baseurl: "/gp"
+baseurl: ""
 url: "https://morgenstern89.github.io/"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
