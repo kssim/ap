@@ -1,14 +1,14 @@
 # Site settings
 title: A.P
-baseurl: "/ap"
-url: "https://kssim.github.io"
+baseurl: "https://qkrqjatn218.github.io/cv"
+url: "https://qkrqjatn218.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
-  name: KyeongSeob Sim
+  name: Beomsu Park
   desc: Hello nice to meet you
-  email: ksub0912@gmail.com
+  email: qkrqjatn218@gmail.com
   selfie: assets/img/profile.jpg
 
 # social
