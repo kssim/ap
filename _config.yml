@@ -1,14 +1,14 @@
 # Site settings
-title: A.P
-baseurl: "/ap"
-url: "https://kssim.github.io"
+title: D.L
+baseurl: "/dp"
+url: "https://moekewlkatz.github.io"
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
-  name: KyeongSeob Sim
-  desc: Hello nice to meet you
-  email: ksub0912@gmail.com
+  name: "Darren Liu"
+  desc: Welcome to my page!
+  email: darren.liu.plath@gmail.com
   selfie: assets/img/profile.jpg
 
 # social
@@ -17,13 +17,13 @@ social:
   behance:
   bitbucket:
   dribbble:
-  facebook: Test
+  facebook: 
   flickr:
-  github: kssim
+  github: moekewlkatz
   google_plus:
   instagram:
   keybase:
-  linkedin: https://www.linkedin.com/in/kssim/ 
+  linkedin: https://www.linkedin.com/in/darren-l-167190273/ 
   pinterest:
   reddit:
   soundcloud:
@@ -31,11 +31,11 @@ social:
   steam:
   tumblr:
   gitlab:
-  twitter: Test
+  twitter: 
   vimeo:
   wordpress:
   youtube:
-  default_txt: "Follow On"
+  default_txt: "Follow Me On!"
 
 # Build settings
 markdown: kramdown
